@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ElevenNote.Models
 {
-    class NoteCreate
+    public class NoteCreate
     {
         [Required]
         public string Title { get; set; }
